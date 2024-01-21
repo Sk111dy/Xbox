@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.star {
+	background: url(../img/star.jpg) no-repeat center / cover;
+}
+.star-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.star-title {
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+.star-subtitle {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 80px;
+}
+.star-button {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding: 9px 25px;
+	border-radius: 4px;
+	background: #8dd83d;
+}
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../img/Gamepad.jpg) no-repeat center / cover;
+}
+.conteiner {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+.pads-title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 37px;
+	max-width: 530px;
+}
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.pads-button {
+	padding: 50px 20px;
+	background: #373a3c;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+.pads-button:hover {
+	background: #8dd83d;
+}
