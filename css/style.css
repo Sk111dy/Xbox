@@ -82,3 +82,35 @@
 .pads-button:hover {
 	background: #8dd83d;
 }
+.exclusive {
+	padding: 70px 0 140px 0;
+	background: url(../img/exclusive-bg.jpg) no-repeat center / cover;
+}
+.exclusive-title {
+	color: #8dd83d;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	margin: 0 0 75px 0;
+}
+.exclusive-row {
+	margin: 0 0 90px 0;
+}
+.exclusive-card-image-1 {
+	background: url(../img/exclusive-image-1.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-2 {
+	background: url(../img/exclusive-image-2.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-3 {
+	background: url(../img/exclusive-image-3.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-4 {
+	background: url(../img/exclusive-image-4.jpg) no-repeat center / cover;
+}
+.exclusive-button {
+	background: #436766;
+	max-width: 200px;
+	padding: 16px;
+	margin: 0 auto;
+}
