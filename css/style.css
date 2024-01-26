@@ -45,7 +45,7 @@
 }
 .pads {
 	padding: 114px 0 145px 0;
-	background: url(../img/Gamepad.jpg) no-repeat center / cover;
+	background: url(/img/Gamepad.jpg) no-repeat center / cover;
 }
 .conteiner {
 	max-width: 1017px;
@@ -82,6 +82,17 @@
 .pads-button:hover {
 	background: #8dd83d;
 }
+.cards-row {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 1300px;
+}
+.card {
+	margin: 0 10px 0 10px;
+	background-color: white;
+	max-width: 309px;
+}
 .exclusive {
 	padding: 70px 0 140px 0;
 	background: url(../img/exclusive-bg.jpg) no-repeat center / cover;
@@ -96,21 +107,27 @@
 .exclusive-row {
 	margin: 0 0 90px 0;
 }
-.exclusive-card-image-1 {
-	background: url(../img/exclusive-image-1.jpg) no-repeat center / cover;
+
+.exclusive-card-image {
+	width: 309px;
+	height: 180px;
 }
-.exclusive-card-image-2 {
-	background: url(../img/exclusive-image-2.jpg) no-repeat center / cover;
-}
-.exclusive-card-image-3 {
-	background: url(../img/exclusive-image-3.jpg) no-repeat center / cover;
-}
-.exclusive-card-image-4 {
-	background: url(../img/exclusive-image-4.jpg) no-repeat center / cover;
+.card-text {
+	word-break: break-all;
 }
 .exclusive-button {
-	background: #436766;
 	max-width: 200px;
 	padding: 16px;
-	margin: 0 auto;
+	margin: 32px;
+	width: 200px;
+	height: 60px;
+	border-radius: 4px;
+	background: #8dd83d;
+}
+.button {
+	border-radius: 4px;
+	background: #8dd83d;
+	width: 270.278px;
+	height: 60px;
+	flex-shrink: 0;
 }
